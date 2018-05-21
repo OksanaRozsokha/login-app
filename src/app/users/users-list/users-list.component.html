@@ -1,0 +1,8 @@
+<ul class="users-list">
+  <li class="user" *ngFor="let user of usersList">
+    <img class="user__image" src="{{ user.image }}">
+    <h3 class="user__name">{{ user.name }}</h3>
+    <span class="user__location">{{ user.location }}</span>
+  </li>
+</ul>
+<a routerLink="/feature">Go to the feature</a>
